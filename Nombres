@@ -1,0 +1,6 @@
+lista = {"Erick": 13, "Eduardo": 87, "Eva": 89}
+entrada = input("Ingresa el nombre: ")
+if entrada in lista:
+    print(f"{lista[entrada]}")
+else:
+    print(f"{entrada}, no se encuentra.")
